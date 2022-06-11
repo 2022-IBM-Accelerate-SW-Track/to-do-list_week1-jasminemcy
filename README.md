@@ -84,7 +84,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
     + `<AddTodo addTodo={make your change} />`. Hint: call addTodo() function. Remember to use the `this` keyword
 
 
-## Testing
+## Testingthis.props.addTodo(this.state)
 When testing web components, developers often use ids to uniquely define elements on a page. The React Testing Library provides a query which can identify items with the attribute data-testid to do just that (reference [here](https://testing-library.com/docs/queries/bytestid/)). We have implemented simple tests in `App.test.js` that will look for ids in your code. Do not push changes to the tests in this file. To get familiar with the idea of testing ids, implement the attributes below:
     + `data-testid="new-item-input"` on the Input component which takes user input for new items.
     + `data-testid="new-item-button"` on the Button component which submits new items to the to do list.
